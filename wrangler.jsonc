@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "chibekharam",
+  "compatibility_date": "2026-08-19",
+  "main": "@tanstack/react-start/server-entry",
+  "observability": {
+    "enabled": true
+  }
+
+  // Add after creating the database:
+  // "d1_databases": [
+  //   {
+  //     "binding": "DB",
+  //     "database_name": "chibekharam-db",
+  //     "database_id": "<created-by-wrangler>"
+  //   }
+  // ]
+  //
+  // Later, for the intent parser:
+  // "ai": { "binding": "AI" }
+}
